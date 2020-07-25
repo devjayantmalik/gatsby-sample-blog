@@ -1,7 +1,7 @@
 ---
 path: "/post-one"
 date: "2020-01-22"
-title: "Sample Post"
+title: "Sample Post 1"
 author: "Jayant Malik"
 ---
 

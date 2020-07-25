@@ -1,11 +1,10 @@
 import React from "react"
-import Menu from "../components/menu"
+import Layout from "../components/layout"
 
 const About = () => (
-  <div>
-    <Menu />
+  <Layout>
     <h1>About</h1>
-  </div>
+  </Layout>
 )
 
 export default About

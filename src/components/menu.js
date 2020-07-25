@@ -4,7 +4,13 @@ import { Link } from "gatsby"
 const Menu = () => {
   return (
     <nav>
-      <ul>
+      <ul
+        style={{
+          listStyle: "none",
+          display: "flex",
+          justifyContent: "space-evenly",
+        }}
+      >
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -13,6 +19,9 @@ const Menu = () => {
         </li>
         <li>
           <Link to="/services">Services</Link>
+        </li>
+        <li>
+          <Link to="/posts">Posts</Link>
         </li>
       </ul>
     </nav>
